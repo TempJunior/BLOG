@@ -1,0 +1,113 @@
+
+.estrelas img{
+    width: 100px;
+}
+.dias{
+    text-align: center;
+}
+body{
+    font-family: cursive;
+    margin: auto;
+}
+figure{
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #000;
+    border-radius: 20px;
+}
+figure>img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+h1, .dist{
+    display: inline-block;
+    width: 49%;
+}
+h1{
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+}
+.dist img{
+    vertical-align: middle;
+}
+.dist{
+    text-align: right;
+}
+figcaption{
+    padding: 10px;
+}
+.horario *{
+    display: inline-block;
+    width: 65px;
+    line-height: 30px;
+}
+.clock{
+    display: inline-block;
+    width: 30px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.reserva{
+    font-size: 20pt;
+    color: red;
+    padding-top: 5px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links li a {
+        font-size: 1.2rem;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffc107;
+}
+
+
